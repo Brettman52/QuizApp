@@ -196,7 +196,7 @@ if (currentScore < 3) {
 }
 
 else if(currentScore==3 || currentScore==4){
-message = "You did pretty good, Guardian!";
+message = "You did ok, Guardian!";
 }
 
 else{
