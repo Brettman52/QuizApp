@@ -80,7 +80,8 @@ const STORE = {
    currentQuestionNumber ++;
   
   if(currentQuestionNumber > 5){
-   showFinalResults();
+      $(".questionAndScore").hide();  
+      showFinalResults();
   }
   
   else {
@@ -211,7 +212,7 @@ const STORE = {
   currentScore=0;
   
   $(".retakeQuiz").focus();
-  $(".questionAndScore").hide();
+  
   
   
   }
