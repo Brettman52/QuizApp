@@ -218,7 +218,7 @@ const STORE = {
   //Start quiz over when retakeQuiz button is clicked
   function retakeQuiz() {
   $(".quizForm").on("click",".retakeQuiz", function(event) {
-    
+    $(".questionAndScore").show();
     showNewQuestion();
   });
   }
