@@ -46,7 +46,7 @@ const STORE = {
     },
     
     {
-      question: "Winning 7 rounds in a row during Trials of Osiris is refrred to as going what?",
+      question: "Winning 7 rounds in a row during Trials of Osiris is referred to as going what?",
       options: [
        "Insane",
        "Platinum",
